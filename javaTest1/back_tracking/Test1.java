@@ -29,6 +29,7 @@ public class Test1
 			  path.add(i);
 			  backtracking(n,k,i+1);
 			  path.removeLast();
+			  path.pop();
 		  }
 	}
 }
